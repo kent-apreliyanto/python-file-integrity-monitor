@@ -19,6 +19,9 @@ A lightweight, cryptographic File Integrity Monitor (FIM) built with Python. Thi
 2. Build the trusted security baseline for a target directory (e.g., `./rahasia`):
    ```bash
    python fim.py build ./rahasia
+3. For Scanning folder:
+   ```bash
+   python fim.py scan ./rahasia
 
 ## Security Notice
 This tool is designed for educational purposes, system administration, and authorized security auditing.
